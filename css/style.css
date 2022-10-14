@@ -1,0 +1,12 @@
+/* Declarar las constantes de colores y fuentes */
+:root{
+ /* fuentes  */
+ --titulos: 'Roboto', sans-serif;
+ --parrafos: 'Roboto', sans-serif;
+ /* colores*/
+ --encabezado: rgb(26, 49, 111);
+ --piepagina : rgb(119, 109, 228);
+ --enlace: #fff; 
+ --enlaceSobre: rgb(16, 215, 233);
+ 
+}
