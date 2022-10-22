@@ -4,8 +4,8 @@
  --titulos: 'Roboto', sans-serif;
  --parrafos: 'Roboto', sans-serif;
  /* colores*/
- --encabezado: rgb(26, 49, 111);
- --piepagina : rgb(119, 109, 228);
+ --encabezado: rgb(28, 64, 162);
+ --piepagina : rgb(72, 60, 206);
  --enlace: #fff; 
  --enlaceSobre: rgb(16, 215, 233);
  --fondo:rgb(87, 164, 226);
@@ -13,7 +13,7 @@
 /* la clase en css se representa por un (.) */
 
 .home-wrapper{
-    background-image: url('../imagenes/images/background.jpg');
+ background-image: url('../imagenes/images/background.jpg');
 }
 
 /* selectores de etiquetas en css, se nombra 
