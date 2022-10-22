@@ -12,8 +12,8 @@
 }
 /* la clase en css se representa por un (.) */
 
-.home-wropper{
-    background-image: url('../imagenes/background.jpg');
+.home-wrapper{
+    background-image: url('../imagenes/images/background.jpg');
 }
 
 /* selectores de etiquetas en css, se nombra 
@@ -22,4 +22,25 @@ header {
     width:100%;
     background-color: var (--encabezado);
     position: fixed;
+}
+header img{
+    width: 100px;
+}
+header nav{
+    float:right;
+    margin-top: 8px;
+}
+
+header nav {
+    color:var(--enlace);
+    background-color: rgb(119, 109, 228);
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 18px;
+    margin-left: 6px;
+    padding: 4px;
+
+}
+header nav a:hover{
+    color:var(--enlaceSobre);
 }
