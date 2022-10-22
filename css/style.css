@@ -8,5 +8,18 @@
  --piepagina : rgb(119, 109, 228);
  --enlace: #fff; 
  --enlaceSobre: rgb(16, 215, 233);
- 
+ --fondo:rgb(87, 164, 226);
+}
+/* la clase en css se representa por un (.) */
+
+.home-wropper{
+    background-image: url('../imagenes/background.jpg');
+}
+
+/* selectores de etiquetas en css, se nombra 
+*/
+header {
+    width:100%;
+    background-color: var (--encabezado);
+    position: fixed;
 }
